@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+.page {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(175, 217, 237);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 20em;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #fff;
+}
+.card__img-container {
+  margin: 1.5em;
+  border-radius: 1em;
+  background-color: blue;
+}
+.card__title-text {
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+  font-weight: 900;
+  opacity: 0.8;
+}
+.card__commin-text {
+  padding-bottom: 3.5em;
+  opacity: 0.5;
+}
